@@ -24,7 +24,7 @@ describe('index.js', function () {
 
   describe('randomNumber', function () {
     it('contains a random number greater than or equal to 0 and less than 20', function () {
-      expect(randomNumber).to.be.at.least(0).but.below(20);
+      expect(randomNumber).to.be.at.least(0).but.below(21);
     });
 
     it("invokes 'Math.random()'", function () {
